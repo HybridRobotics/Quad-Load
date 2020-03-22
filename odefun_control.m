@@ -9,7 +9,6 @@ e1 = data.params.e1;
 e2 = data.params.e2;
 e3 = data.params.e3;
 l = data.params.l;
-r = data.params.r;
 
 %% Desired States
 %---------------%

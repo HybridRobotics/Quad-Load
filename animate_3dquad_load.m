@@ -163,8 +163,6 @@ s.hload = plot3(xL(1,1), xL(2,1), xL(3,1), 'ko', 'LineWidth',lwl) ;
 s.cable = plot3([wp_cable_attach(1) xL(1,1)], [wp_cable_attach(2) xL(2,1)], [wp_cable_attach(3) xL(3,1)], 'k') ;
 s.cable_attach = plot3([wp(1) wp_cable_attach(1)], [wp(2) wp_cable_attach(2)], [wp(3) wp_cable_attach(3)], 'r') ;
 
-offset = 0.5;
-
 % axis equal
 % set(handles.axes10,'Xlim',[max(min(s.xs(s.goodv))-offset,-20), min(max(s.xs(s.goodv))+offset,20)]);
 % set(handles.axes10,'Ylim',[max(min(s.ys(s.goodv))-offset,-20), min(max(s.ys(s.goodv))+offset,20)]);
